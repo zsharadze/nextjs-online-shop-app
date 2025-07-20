@@ -13,6 +13,8 @@ NextJS 15, Zustand for state management, Bootstrap 5, mongoose (MongoDB), authen
 6. It will automatically create database and seed it with inital products and categories.
 7. You are done.
 
+[Same project in Angular 18](https://github.com/zsharadze/AngularNetCoreOnlineShopApp). [Same project in ReactJS](https://github.com/zsharadze/ReactJSNetCoreOnlineShopApp).
+
 ![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture1.PNG?raw=true)
 
 ![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture2.PNG?raw=true)
