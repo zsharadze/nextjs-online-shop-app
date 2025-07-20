@@ -1,0 +1,29 @@
+.modal {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(222, 220, 220, 0.5) !important;
+}
+
+.modal-body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.loader-overlay {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  margin-left: -67px;
+  margin-top: -67px;
+  
+}
+
+.spinner-border {
+  width: 135px;
+  height: 135px;
+  border-width: 15px;
+}

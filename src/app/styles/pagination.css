@@ -1,0 +1,9 @@
+.pagination > li > a,
+.pagination > li > span {
+  display: flex;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-top: 1px solid rgb(222, 226, 230);
+  border-right: 1px solid rgb(222, 226, 230);
+  border-bottom: 1px solid rgb(222, 226, 230);
+}

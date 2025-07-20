@@ -1,0 +1,77 @@
+.container-add-edit-products {
+  max-width: 734px !important;
+  height: auto;
+  /* height: calc(100vh - 184px);  */
+}
+
+.input-add-edit-product {
+  width: 290px;
+  display: inline-block;
+}
+
+.input-add-edit-product[type="radio"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.form-check-label {
+  cursor: pointer;
+}
+
+.textarea-add-edit-product {
+  width: 290px;
+  display: inline-block;
+  height: 124px;
+}
+
+.select-add-edit-product {
+  width: 290px;
+  display: inline-block;
+}
+
+.imageFileWrapper {
+  margin-top: 9px;
+}
+
+.img-add-edit-product {
+  width: 120px;
+  height: 120px;
+  object-fit: scale-down;
+}
+
+.previewImageWrapper {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.previewImageWrapper:hover .close-btn {
+  opacity: 1;
+}
+
+.close-btn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 100;
+  background-color: #fff;
+  padding: 5px 2px 2px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.2;
+  text-align: center;
+  font-size: 22px;
+  line-height: 10px;
+  border-radius: 50%;
+}
+
+.poduct-form {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 40px 15px 40px;
+}

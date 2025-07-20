@@ -1,0 +1,50 @@
+.side-panel {
+  background-color: #f0f0f0;
+  width: 200px;
+  padding: 1em;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.side-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-panel li {
+  margin-bottom: 10px;
+}
+
+.side-panel a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .side-panel {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.menuIcon {
+  font-size: 26px !important;
+  cursor: pointer !important;
+  text-align: center;
+  width: 30px;
+}
+
+.menuImage {
+  border: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.growMainCategoryImgAndText { 
+  transition: all .2s ease-in-out; 
+}
+
+.growMainCategoryImgAndText:hover { 
+  transform: scale(1.1); 
+}

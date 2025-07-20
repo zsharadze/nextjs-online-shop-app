@@ -1,0 +1,6 @@
+
+.main-content {
+  flex-grow: 1 !important;
+  padding: 1em !important;
+  overflow-y: auto !important;
+}
