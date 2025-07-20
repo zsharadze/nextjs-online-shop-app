@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NextJS 15 Online Shop Application with authentication and authorization.
+This is NextJS 15 online shop application with shopping cart and admin panel with MongoDB database (design is responsive).
+
+## Features
+NextJS 15, Zustand for state management, Bootstrap 5, mongoose (MongoDB), authentication (with next-auth), authorization (roles), shopping cart, placing orders with promo codes, search and pagination, admin panel for managing orders, products, categories and generating promo codes, change password functionality, login and register pages. There are 2 default roles: User and Admin. Non admin user can't access admin panel. Admin can add edit orders, products, categories and generate promo codes. App uses toasts to show errors and messages. Products can have multiple images. In next.config.ts maximum image upload file size can be set. 
 
 ## Getting Started
+1. Go to nextjs-online-shop-app folder and open it with Visual Studio Code.
+2. In .env file change MONGO_DB_CONNECTION_STRING with your MongoDB database credentials.
+3. Open terminal and run npm install command to install node modules.
+4. Run project with command: npm run dev in terminal.
+5. Open browser and go to http://localhost:3000 url.
+6. It will automatically create database and seed it with inital products and categories.
+7. You are done.
 
-First, run the development server:
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture1.PNG?raw=true)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture2.PNG?raw=true)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture3.PNG?raw=true)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture4.PNG?raw=true)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture5.PNG?raw=true)
 
-## Learn More
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture6.PNG?raw=true)
 
-To learn more about Next.js, take a look at the following resources:
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture7.PNG?raw=true)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture8.PNG?raw=true)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture9.PNG?raw=true)
 
-## Deploy on Vercel
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture10.PNG?raw=true)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture11.PNG?raw=true)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture12.PNG?raw=true)
+
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture13.PNG?raw=true)
+
+![screenshot](https://github.com/zsharadze/nextjs-online-shop-app/blob/master/Capture14.PNG?raw=true)
+
+
+###### About me
+My name is Zviad Sharadze. I'm .Net Developer from Tbilisi, Georgia.
